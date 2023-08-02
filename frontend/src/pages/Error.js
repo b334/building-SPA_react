@@ -3,7 +3,7 @@ import MainNavigation from "../components/MainNavigation";
 
 import PageContent from "../components/PageContent";
 
-function ErrorPage() {
+export default function ErrorPage() {
   const error = useRouteError();
 
   let title = "An error occurred!";
@@ -27,5 +27,3 @@ function ErrorPage() {
     </>
   );
 }
-
-export default ErrorPage;

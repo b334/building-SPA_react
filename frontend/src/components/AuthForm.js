@@ -2,7 +2,7 @@ import { Form, Link, useActionData, useSearchParams, useNavigation } from "react
 
 import classes from "./AuthForm.module.css";
 
-const AuthForm = (props) => {
+const AuthForm = () => {
   const data = useActionData();
   const navigation = useNavigation();
   const [searchParams, setSearchParams] = useSearchParams();
